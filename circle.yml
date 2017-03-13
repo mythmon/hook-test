@@ -1,0 +1,3 @@
+test:
+  override:
+    - git show --pretty='%s' | grep -vi ci-fail
